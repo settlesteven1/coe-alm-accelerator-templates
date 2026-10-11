@@ -1,6 +1,6 @@
 # Pipeline Performance Optimization
 
-[https://github.com/microsoft/coe-alm-accelerator-templates/tree/jeschro-1540](https://github.com/microsoft/coe-alm-accelerator-templates/tree/jeschro-1540)
+Originally developed on the upstream `jeschro-1540` branch and merged into main. Kept here as reference for how the pipeline caches PowerShell modules and tools.
 
 Branch includes performance optimizations by leveraging the [Cache DevOps task](https://docs.microsoft.com/azure/devops/pipelines/release/caching?view=azure-devops).
 
