@@ -1,3 +1,20 @@
+# ALM Accelerator for Power Platform: pipeline templates (RYSE fork)
+
+This is a maintained fork of
+[microsoft/coe-alm-accelerator-templates](https://github.com/microsoft/coe-alm-accelerator-templates),
+the Azure DevOps pipeline templates and PowerShell used by the ALM Accelerator
+for Power Platform. Upstream stopped moving in early 2025; this fork carries the
+toolchain forward (native canvas YAML, cross-platform agents, federated auth,
+`pac`-based admin operations, Power Apps Test Engine).
+
+- Plan and status: [docs/MODERNIZATION-PLAN.md](docs/MODERNIZATION-PLAN.md)
+- Changes since the fork point: [CHANGELOG.md](CHANGELOG.md)
+- Upstream docs: [ALM Accelerator for Power Platform](https://learn.microsoft.com/power-platform/guidance/alm-accelerator/overview)
+
+Issues for this fork go in this repository's issue tracker, not the CoE Starter Kit.
+
+---
+
 
 ## Contributing
 

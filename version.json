@@ -1,5 +1,7 @@
 {
-  "version": "CenterofExcellenceALMAccelerator-March2024",
-  "published": "2024-03-22",
-  "content": "coe-alm-accelerator-templates"
+  "version": "ALMAccelerator-RYSEFORK-Phase0",
+  "published": "2026-10-11",
+  "content": "coe-alm-accelerator-templates",
+  "upstreamVersion": "CenterofExcellenceALMAccelerator-March2024",
+  "upstreamCommit": "59abea3"
 }

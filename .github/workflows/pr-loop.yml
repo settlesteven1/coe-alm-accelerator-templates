@@ -1,9 +1,10 @@
 name: pr-loop
 
+# Fork note: this end-to-end loop needs an Azure DevOps org wired up via
+# repository secrets (AZDO_ORG, AZDO_PROJECT, AZDO_PAT, ...). It is manual-only
+# until those exist for this fork.
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [ "main", "hotfix" ]
 jobs:
   pr-loop:
     runs-on: ubuntu-latest

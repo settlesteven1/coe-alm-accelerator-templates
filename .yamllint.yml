@@ -1,0 +1,17 @@
+# Relaxed rules: these are Azure Pipelines templates with ${{ }} expressions and
+# long displayName / script lines. Goal is to catch syntax errors and tab/indent
+# mistakes, not to restyle upstream files.
+extends: relaxed
+rules:
+  line-length: disable
+  truthy: disable
+  comments: disable
+  comments-indentation: disable
+  document-start: disable
+  indentation:
+    spaces: consistent
+    indent-sequences: whatever
+  trailing-spaces: disable
+  new-line-at-end-of-file: disable
+  empty-lines:
+    max: 3
